@@ -1,0 +1,15 @@
+:root{
+    --1: #000000;
+    --2: #00400F;
+    --3: #00801E;
+    --4: #00BF2D;
+    --5: #00FF3C;
+    --6: #20F848;
+    --7: #40F254;
+    --8: #60EB60;
+}
+body{
+    background-color: var(--1);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--5);
+}
