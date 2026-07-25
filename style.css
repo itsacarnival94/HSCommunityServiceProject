@@ -95,3 +95,7 @@ ol{
     margin-right:30%;
     font-style: normal;
 }
+img{
+    display:block;
+    margin:auto;
+}
