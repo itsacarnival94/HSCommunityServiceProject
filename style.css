@@ -105,3 +105,11 @@ img {
     border: 5pt, dotted, var(--3);
   
 }
+nav{
+    font-size: 45pt;
+    background-color: var(--4);
+    position: fixed;
+    width: 100%;
+    color:var(--1);
+    opacity:1;
+}
