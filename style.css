@@ -95,7 +95,12 @@ ol{
     margin-right:30%;
     font-style: normal;
 }
-img{
-    display:block;
-    margin:auto;
+.image-container {
+  display: flex;  
+  gap: 10px;          
+}
+
+.image-container img {
+  width: 50%;        
+  height: auto;       
 }
