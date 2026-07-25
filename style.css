@@ -31,3 +31,9 @@ p{
     margin-left: 20%;
     margin-right: 20%;
 }
+hr {
+  border: none;               
+  height: 2px;              
+  background-color: var(--5);
+  margin-top: 100px;
+}  
