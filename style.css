@@ -95,12 +95,13 @@ ol{
     margin-right:30%;
     font-style: normal;
 }
-.image-container {
-  display: flex;  
-  gap: 10px;          
+.center-gallery {
+    text-align: center;   
 }
-
-.image-container img {
-  width: 50%;        
-  height: auto;       
+img {
+    display: inline-block; 
+    width: 40%;            
+    height: auto;
+    border: 5pt, dotted, var(--3);
+  
 }
