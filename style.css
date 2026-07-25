@@ -52,3 +52,9 @@ ol{
     margin-left: 20%;
     margin-right: 20%;
 }
+img{
+    filter: invert(100%) sepia(100%) saturate(10000%) hue-rotate(75deg) drop-shadow(0 0 8px #39ff14) drop-shadow(0 0 20px #39ff14);
+    display: block;
+    margin:auto;
+
+}
