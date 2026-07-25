@@ -13,19 +13,23 @@ body {
     background-color: var(--1);
     font-family: 'Courier New', Courier, monospace;
     color: var(--5);
-    padding-top: 140px; /* Pushes content down so the fixed nav doesn't cover it */
+    padding-top: 80px; 
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-size: 45pt;
-    background-color: var(--4);
-    color: var(--1);
-    opacity: 1;
-    z-index: 1000; /* Keeps navbar above all other elements */
+.links {
+   
+    display: flex;
+    gap: 20px;
+    font-size: 30pt;
+
+}
+.links a{
+    display:flex;
+    
+    color:#000000;
+    flex-direction:end;
+    justify-self: flex-end;
+    
 }
 
 h1 {
@@ -113,12 +117,34 @@ ol {
     text-align: center;   
 }
 
-img {
+.image {
     display: inline-block; 
     width: 40%;            
     height: auto;
     border: 5pt dotted var(--3); /* Fixed: Removed commas that broke the border */
 }
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;              /* this IS the "shelf height" now */
+    display: flex;
+    align-items: center;       /* vertically centers stuff inside the bar */
+    justify-content: space-between;
+    background-color: var(--4);
+    z-index: 1000;
+}
+
+.special {
+    height: 100%;              /* logo matches the shelf's height */
+    width: auto;               /* let width scale automatically, no stretching */
+    padding: 10px 0;           /* a little breathing room so it's not edge-to-edge */
+    box-sizing: border-box;
+}
+
+
 
 
 .belownav {
