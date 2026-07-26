@@ -147,7 +147,10 @@ ol {
 }
 
 
-
+summary{
+    background-color: var(--2);
+    border-radius: 50px;
+}
 
 .belownav {
     margin-top: 100px;
