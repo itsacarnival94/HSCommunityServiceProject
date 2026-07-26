@@ -1,3 +1,14 @@
+:root {
+    --1: #000000;
+    --2: #00400F;
+    --3: #00801E;
+    --4: #00BF2D;
+    --5: #00FF3C;
+    --6: #20F848;
+    --7: #40F254;
+    --8: #60EB60;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -69,7 +80,7 @@ button {
   padding: 0.75rem;
   border: none;
   border-radius: 8px;
-  background: #764ba2;
+  background: var(--5);
   color: white;
   font-size: 1rem;
   font-weight: 600;
@@ -78,7 +89,7 @@ button {
 }
 
 button:hover {
-  background: #663a92;
+  background: var(--5);
 }
 
 button:active {
@@ -106,7 +117,7 @@ button:active {
 }
 
 .switch-link a {
-  color: #764ba2;
+  color: var(--5);
   font-weight: 600;
   text-decoration: none;
 }
@@ -121,4 +132,7 @@ button:active {
 
 #userEmail {
   margin-bottom: 1.5rem;
+}
+.login-button{
+    background-color: var(--5);
 }
