@@ -30,7 +30,7 @@ form.addEventListener("submit", async (e) => {
       message.textContent = "Account created! Redirecting to login...";
       message.className = "message success";
       setTimeout(() => {
-        window.location.href = "index.html";
+        window.location.href = "login-portal.html";
       }, 1200);
     } else {
       message.textContent = data.error || "Could not create account.";
