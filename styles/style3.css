@@ -136,3 +136,15 @@ button:active {
 .login-button{
     background-color: var(--5);
 }
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;        
+    display: flex;
+    align-items: center;     
+    justify-content: space-between;
+    background-color: var(--4);
+    z-index: 1000;
+}
