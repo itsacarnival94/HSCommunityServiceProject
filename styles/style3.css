@@ -262,3 +262,10 @@ ol {
     background-color: var(--4);
     z-index: 1000;
 }
+.special {
+    height: 100%;           
+    width: auto;             
+    padding: 10px 0;           
+    box-sizing: border-box;
+    padding-left: 20px;
+}
