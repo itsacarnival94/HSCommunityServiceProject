@@ -75,7 +75,7 @@ hr {
     border: none;               
     height: 2px;              
     background-color: var(--5);
-    margin-top: 100px;
+    margin-bottom: 50px;
 } 
 
 a {
@@ -150,8 +150,10 @@ ol {
 summary{
     background-color: var(--2);
     border-radius: 50px;
+    justify-self: center;
 }
 
 .belownav {
     margin-top: 100px;
 }
+
