@@ -129,6 +129,7 @@ button {
 button:active,
 button:hover {
   outline: 0;
+  color:#000000;
 }
 
 button span {
