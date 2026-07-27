@@ -92,7 +92,7 @@ body {
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    /*width:max-content;*/
+    width:max-content;
     
   
     font-style: normal;
@@ -156,5 +156,8 @@ hr {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-left: auto;  
+    margin-right: auto; 
+    
 
 }
