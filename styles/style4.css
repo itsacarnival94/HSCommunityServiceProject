@@ -59,6 +59,7 @@ body {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  padding-right: 10px;
 }
 
 /* Hide the dropdown menu by default */
