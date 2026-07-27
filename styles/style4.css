@@ -86,13 +86,13 @@ body {
   display: block;
 }
 .paragraph-text {
-    text-align: center;
+
     background-color: var(--2);
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right:30%
   
     font-style: normal;
 }
