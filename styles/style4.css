@@ -60,6 +60,7 @@ body {
   display: inline-block;
   cursor: pointer;
   padding-right: 10px;
+  color:black;
 }
 
 /* Hide the dropdown menu by default */
