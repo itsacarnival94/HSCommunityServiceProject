@@ -3,7 +3,7 @@ const message = document.getElementById("message");
 
 // If already logged in, skip straight to the account page
 if (localStorage.getItem("loggedIn") === "true") {
-  window.location.href = "account.html";
+  window.location.href = "index.html";
 }
 
 form.addEventListener("submit", async (e) => {
