@@ -2,9 +2,9 @@ const form = document.getElementById("loginForm");
 const message = document.getElementById("message");
 
 // If already logged in, skip straight to the account page
-if (localStorage.getItem("loggedIn") === "true") {
-  window.location.href = "index.html";
-}
+// if (localStorage.getItem("loggedIn") === "true") {
+//   window.location.href = "index.html";
+// }
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
