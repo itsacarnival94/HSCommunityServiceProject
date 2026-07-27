@@ -151,3 +151,8 @@ hr {
     background-color: var(--5);
     margin-bottom: 50px;
 } 
+.center{
+    align-items: center;
+    justify-content: center;
+
+}
