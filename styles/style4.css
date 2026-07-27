@@ -148,3 +148,9 @@ button:hover span {
 button:active {
   transform: scale(0.9);
 }
+hr {
+    border: none;               
+    height: 2px;              
+    background-color: var(--5);
+    margin-bottom: 50px;
+} 
