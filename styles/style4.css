@@ -91,7 +91,7 @@ body {
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width:max-content;
+    width:max-content+5;
   
     font-style: normal;
 }
