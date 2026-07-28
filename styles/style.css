@@ -147,7 +147,15 @@ ol {
 }
 
 
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;  
+    margin-right: auto; 
+    
 
+}
 
 .belownav {
     margin-top: 100px;
